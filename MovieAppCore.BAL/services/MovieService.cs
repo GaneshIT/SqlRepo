@@ -39,5 +39,11 @@ namespace MovieAppCore.BAL.services
         {
            return _movieRepository.GetMovies();
         }
+
+        public object GetAllMovies()
+        {
+            object o = "";
+            return o;
+        }
     }
 }
