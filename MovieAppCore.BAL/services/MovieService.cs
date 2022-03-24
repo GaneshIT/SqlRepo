@@ -45,6 +45,11 @@ namespace MovieAppCore.BAL.services
             object o = "";
             return o;
         }
+        public object GetAllMoviesByLocation()
+        {
+            object s = "";
+            return s;
+        }
         public object GetAllMoviesByState()
         {
             object o = "";
